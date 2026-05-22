@@ -1,1 +1,145 @@
 <!DOCTYPE html>
+<html>
+  <head>
+    <title>You Are An idiot coming to this page (no youre not)</title>
+    <style>
+      /* Reset page defaults to handle full-height layout */
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: sans-serif;
+      }
+
+      /* Flexbox layout to split content between center and bottom */
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+        box-sizing: border-box;
+        padding: 40px 20px;
+        background-color: #f8f9fa; 
+      }
+
+      /* Keeps your header, text, video, and button grouped and centered */
+      .main-content {
+        text-align: center;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+        max-width: 600px;
+        margin: 0 auto; /* Keeps the block centered horizontally */
+      }
+
+      /* Video Responsive Container Setup */
+      .video-wrapper {
+        width: 100%;
+        max-width: 560px;
+        margin: 20px 0;
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+        height: 0;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
+      .video-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+
+      /* --- TERMINAL STYLES --- */
+      .terminal-container {
+        width: 100%;
+        max-width: 560px;
+        background-color: #000;
+        color: #00ff00;
+        font-family: 'Courier New', Courier, monospace;
+        padding: 15px;
+        border-radius: 6px;
+        text-align: left;
+        box-sizing: border-box;
+        margin: 15px 0 20px 0;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      }
+      .terminal-output {
+        height: 120px;
+        overflow-y: auto;
+        margin-bottom: 10px;
+        white-space: pre-wrap;
+        font-size: 14px;
+      }
+      .terminal-input-line {
+        display: flex;
+        align-items: center;
+      }
+      .terminal-prompt {
+        margin-right: 8px;
+        user-select: none;
+        font-size: 14px;
+      }
+      .terminal-input {
+        background: transparent;
+        border: none;
+        color: #00ff00;
+        font-family: inherit;
+        font-size: 14px;
+        width: 100%;
+        outline: none;
+      }
+
+      /* Turns your link into a clean, modern dark gray button */
+      .button {
+        display: inline-block;
+        background-color: #24292e; 
+        color: white;
+        text-decoration: none;
+        padding: 12px 24px;
+        border-radius: 6px;
+        font-weight: bold;
+        font-size: 16px;
+        margin-top: 10px;
+        transition: background-color 0.2s;
+      }
+
+      .button:hover {
+        background-color: #444d56;
+      }
+
+      /* Bottom Footer: Custom Branding and Slogan formatting */
+      .footer-branding {
+        text-align: center;
+        color: #6a737d; 
+        font-size: 13px;
+        margin-top: 30px; 
+        line-height: 1.5;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Main Section: Headers, Embedded YouTube Video, Terminal, and Action Button -->
+    <div class="main-content">
+      <h1>Hi this is for a prank thing called you are an idiot from 2004</h1>
+      <p>to use it just allow pop-ups and notifacations to the website:https://redcat243.github.io/youareanidiot on the victims computers web browser then on it too click on Start Prank!!!</p>
+      <!-- Video Embed -->
+      <div class="video-wrapper">
+         <iframe src="https://google.com" title="Google" allow=""></iframe>
+      </div>
+
+      <a href="redcat243.github.io/youareanidiot" class="button">Start Prank!!!</a>
+    </div>
+
+    <!-- Bottom Section: Custom Branding & Slogan -->
+    <footer class="footer-branding">
+      <p>&copy; 2026 onemeow inc. All Wrongs Reserved.</p>
+    </footer>
+  </body>
+</html>
